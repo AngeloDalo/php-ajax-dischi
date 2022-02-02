@@ -1,0 +1,8 @@
+.container-fluid {
+    background-color: #2e3a46;
+    height: 50px;
+}
+
+.container-fluid img {
+    height: 100%;
+}
