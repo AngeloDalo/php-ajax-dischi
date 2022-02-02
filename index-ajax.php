@@ -16,6 +16,16 @@
   <?php include_once __DIR__ . '/partials/header.php' ?>
 
   <!-- main -->
+  <main id="app">
+    <div class="row">
+        <div class="col-2" v-for="album in albums">
+            <img class="title-image" v-bind:src="album.poster" alt="">
+            <h1> {{ album.title }} </h1>
+            <p> {{ album.author }} </p>
+            <p> {{ album.year }} </p>
+        </div>
+    </div>
+  </main>
 
   <!-- footer -->
   <?php include_once __DIR__ . '/partials/footer.php' ?>
