@@ -1,0 +1,20 @@
+Prima Milestone:
+Stampiamo i dischi solo con l’utilizzo di PHP, che stampa direttamente i dischi in pagina: al caricamento della pagina ci saranno tutti i dischi.
+Passate a questa solo dopo aver fatto la prima milestone
+Seconda Milestone:
+Attraverso l’utilizzo di axios: al caricamento della pagina axios chiederà, attraverso una chiamata api, i dischi a php e li stamperà attraverso vue.
+Bonus:
+Attraverso un’altra chiamata api, filtrare gli album per genere
+Fate prima un diagramma come abbiamo visto assieme e poi solo dopo passate a creare i file che vi servono, provate prima ad includere anche con un banale echo pippo nel file, poi inserite i dati necessari
+Usate questo scaffolding
+
+-nell'index.htmlvanno i vari collegamenti come header, eventuali card/blocchi, footer raggiungibili con <?php include_once __DIR__ . '/cartella/file.php' ?>
+-nell'eventuale header e footer creare un normale html, se bisogna prendere elementi da un oggetto creare un collegamento php
+-con le immagini potrebbero esserci dei problemi dovuti all'url, usare <img src="http://<?php echo $_SERVER['HTTP_HOST'] ?>/cartella_elercizi/esercizio/img/nome_immagine.svg" alt="">
+-per quanto riguarda la creazione di elementi come carte da passare successivamente nell'index, creare il collegamento con la posizinone dell'oggetto e successivamente creare codice html con dentro php e nel caso dovessimo avere più elementi creare un foreach
+ usare formattazione nella quale viene aperto php solamente quando bisogna stampare elemento
+ per i foreach annidati tenere in considerazione il possibile uso di chiavi per andare a prendere elementi specifici
+-nella parte del server sono presenti gli oggetti che andremo ad utitlizzare nel nostro codice
+ nel file controller includiamo il file contenete gli oggeti e creiamo una condizione che restituisca un file json solamente se delle condizioni vengono rispettate prendendo variabili tramite GET
+-il file json sarà utilizzato nel script.js, verrà fatta una chiamata axios che andrà a riempire un oggetto vuoto in data
+.nell'index.html è presente il collegamento con js e andremo a stampare i nostri dati creati nel controller e presi dall'axios tramite cicli o chiamate
