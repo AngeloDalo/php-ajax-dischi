@@ -6,3 +6,20 @@
 .container-fluid img {
     height: 100%;
 }
+
+.container-fluid ul {
+    list-style: none;
+    display: flex;
+    color: white;
+    padding: 1em;
+}
+
+.container-fluid ul li {
+    margin-right: 1em;
+    cursor: pointer;
+}
+
+.container-fluid ul li a {
+    text-decoration: none;
+    color: white;
+} 
