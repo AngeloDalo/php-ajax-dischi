@@ -16,8 +16,7 @@
   <?php include_once __DIR__ . '/partials/header.php' ?>
 
   <!-- main -->
-  <main id="app">
-  </main>
+  <?php include_once __DIR__ . '/partials/albums.php' ?>
 
   <!-- footer -->
   <?php include_once __DIR__ . '/partials/footer.php' ?>

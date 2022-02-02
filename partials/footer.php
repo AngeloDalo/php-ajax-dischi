@@ -1,4 +1,4 @@
-<header>
+<footer>
       <div class="container-fluid p-2">
           <ul>
               <li><a href="artist">artist</a></li>
@@ -8,4 +8,4 @@
               <li><a href="about-us">about-us</a></li>
           </ul>
       </div>
-</header>
+</footer>
