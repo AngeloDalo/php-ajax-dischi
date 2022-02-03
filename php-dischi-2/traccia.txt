@@ -18,3 +18,5 @@ Usate questo scaffolding
  nel file controller includiamo il file contenete gli oggeti e creiamo una condizione che restituisca un file json solamente se delle condizioni vengono rispettate prendendo variabili tramite GET
 -il file json sarà utilizzato nel script.js, verrà fatta una chiamata axios che andrà a riempire un oggetto vuoto in data
 .nell'index.html è presente il collegamento con js e andremo a stampare i nostri dati creati nel controller e presi dall'axios tramite cicli o chiamate
+
+LA RICERCA ?genre=all NON DEVE ESSERE FATTA SULLA PAGINA PRINCIPALE MA SU SERVER CONTROLLER

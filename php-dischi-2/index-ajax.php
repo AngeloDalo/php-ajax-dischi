@@ -17,7 +17,15 @@
 
   <!-- main -->
   <main id="app">
-    <div class="row">
+      <select name="genre" id="genre" v-model="textSearch"  @change="changeGenre(textSearch)">
+        <option value="all">all</option>
+        <option value="Pop">Pop</option>
+        <option value="Jazz">Jazz</option>
+        <option value="Metal">Metal</option>
+      </select>
+      <span> {{ textSearch }}</span>
+
+    <div class="row mt-5">
         <div class="col-2" v-for="album in albums">
             <img class="title-image" v-bind:src="album.poster" alt="">
             <h1> {{ album.title }} </h1>

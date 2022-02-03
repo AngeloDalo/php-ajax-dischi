@@ -1,0 +1,58 @@
+.container-fluid {
+    background-color: #1e2d3b;
+    height: 50px;
+}
+
+.container-fluid img {
+    height: 100%;
+}
+
+.container-fluid ul {
+    list-style: none;
+    display: flex;
+    color: white;
+    padding: 0em 1em;
+}
+
+.container-fluid ul li {
+    margin-right: 1em;
+    cursor: pointer;
+}
+
+.container-fluid ul li a {
+    text-decoration: none;
+    color: white;
+} 
+
+main {
+    padding: 3em 15%;
+    width: 100%;
+    background-color: #1e2d3b;
+}
+
+.row .col-2 {
+    background-color: #2e3a46;
+    margin-right: 2em;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+}
+
+.row .col-2 img {
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.row .col-2 h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.row .col-2 p {
+    text-align: center;
+    margin-bottom: 0em;
+    color: grey;
+}
